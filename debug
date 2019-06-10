@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+cargo build
+time ./target/debug/stone
